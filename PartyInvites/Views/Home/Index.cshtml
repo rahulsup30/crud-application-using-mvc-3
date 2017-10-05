@@ -1,0 +1,24 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <div>
+       @ViewBag.Greeting, world (from the view) 
+       @Html.ActionLink("RSVP Now", "RsvpForm")
+       <br/>
+       
+     <p>To SEARCH DATA CLICK HERE  @Html.ActionLink("SEARCH DATA","show")</p>
+       <br/>
+       <p>To CHANGE DATA CLICK HERE @Html.ActionLink("DATA UPDATE","DataC")</p>
+       <br />
+       <p>TO REMOVE DATA CLCIK HERE<br/> @Html.ActionLink("DATA DELETE","DataRem")</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿@model PartyInvites.Models.GuestResponse
+
+@{
+    ViewBag.Title = "DataC";
+}
+
+<h2>UPDATE SECTION OF DATA</h2>
+
+<body>
+    @using (Html.BeginForm()) {
+        @Html.ValidationSummary()
+        <p>ENTER EMAIL JISKA DATA CHANGE KARNA HAI: @Html.TextBox("mail")</p>
+<p>Your Name: @Html.TextBoxFor(x => x.Name) </p>
+<p>Your NewEmail: @Html.TextBoxFor(x => x.Email)</p>
+<p>Your Phone: @Html.TextBoxFor(x => x.Phone)</p>
+<p>
+Will you attend?
+@Html.DropDownListFor(x => x.WillAttend, new[] {
+new SelectListItem() {Text = "Yes, I'll be there", Value = bool.TrueString},
+new SelectListItem() {Text = "No, I can't come", Value = bool.FalseString}
+}, "Choose an option")
+</p>
+        
+<input type="submit" value="UPDATE" />
+}
+</body>

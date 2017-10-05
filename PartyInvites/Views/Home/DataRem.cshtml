@@ -1,0 +1,15 @@
+﻿@model PartyInvites.Models.GuestResponse
+
+@{
+    ViewBag.Title = "DataRem";
+}
+
+<h2>JISKA DATA DELETE KARNA HAI USKA EMAIL DAAL YAHA</h2>
+<body>
+ @using (Html.BeginForm())
+ {
+<p>Your email: @Html.TextBox("email")</p>
+<input type="submit" value="REMOVE" />
+ }
+</body>
+

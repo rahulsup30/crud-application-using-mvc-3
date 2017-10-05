@@ -1,0 +1,22 @@
+﻿@model List<PartyInvites.CHIRA>
+
+@{
+    ViewBag.Title = "Attendes";
+}
+
+<h2>Attendes</h2>
+
+@foreach (var item in Model)
+{
+     <p>@item.Name</p>
+    <p>@item.Email</p>
+    <p>@item.Phone</p>
+    if (item.WillAttend.Value)
+    {
+        <p>i will attend</p> 
+    }
+    else
+    {
+        <p>sorry i can,t attend</p> 
+    }
+}

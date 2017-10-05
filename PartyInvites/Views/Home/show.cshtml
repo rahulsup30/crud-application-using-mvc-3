@@ -1,0 +1,15 @@
+﻿@model PartyInvites.Models.GuestResponse
+
+@{
+    ViewBag.Title = "show";
+}
+
+<h2>SEARCH DATA BY EMAIL</h2>
+<body>
+ @using (Html.BeginForm())
+ {
+<p>Your email: @Html.TextBox("email")</p>
+<input type="submit" value="SEARCH" />
+ }
+</body>
+

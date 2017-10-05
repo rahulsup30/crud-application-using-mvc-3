@@ -1,0 +1,10 @@
+C:\Users\Dell-PC\Desktop\PartyInvites\PartyInvites\bin\PartyInvites.dll
+C:\Users\Dell-PC\Desktop\PartyInvites\PartyInvites\bin\PartyInvites.pdb
+C:\Users\Dell-PC\Desktop\PartyInvites\PartyInvites\obj\Debug\PartyInvites.dll
+C:\Users\Dell-PC\Desktop\PartyInvites\PartyInvites\obj\Debug\PartyInvites.pdb
+C:\Users\Dell-PC\Desktop\PartyInvites\PartyInvites\obj\Debug\PartyInvites.csprojResolveAssemblyReference.cache
+C:\Users\Dell-PC\Desktop\PartyInvites - Copy\PartyInvites\bin\PartyInvites.dll
+C:\Users\Dell-PC\Desktop\PartyInvites - Copy\PartyInvites\bin\PartyInvites.pdb
+C:\Users\Dell-PC\Desktop\PartyInvites - Copy\PartyInvites\obj\Debug\PartyInvites.csprojResolveAssemblyReference.cache
+C:\Users\Dell-PC\Desktop\PartyInvites - Copy\PartyInvites\obj\Debug\PartyInvites.dll
+C:\Users\Dell-PC\Desktop\PartyInvites - Copy\PartyInvites\obj\Debug\PartyInvites.pdb
